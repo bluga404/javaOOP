@@ -20,7 +20,7 @@ class Person {
     }
 
     void sayHello(String name){
-        System.out.println("Hello " + name + ", nama objek ini adalah " + this.name);
+        System.out.println("Hello " + name + " nama objek ini adalah " + this.name);
     }
 
 }
