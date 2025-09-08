@@ -7,5 +7,8 @@ public class ManagerApp {
         var vicePresident = new VicePresident("Valen");
 
         vicePresident.sayHello("Anton");
+
+        System.out.println(manager);
+        System.out.println(vicePresident);
     }
 }

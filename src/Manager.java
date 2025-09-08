@@ -1,17 +1,16 @@
-class Manager {
-    String name;
+class Manager extends Employee{
     String address;
 
     Manager(String name){
-        this.name = name;
+        super(name);
     }
 
     Manager(String name, String address){
-        this.name = name;
+        super(name);
         this.address = address;
     }
 
     void sayHello(String name){
-        System.out.println("Halo " + name + ", Saya adalah Manager " + this.name + ". Saya tinggal di " + this.address);
+        System.out.println("Halo " + name + ", saya adalah Manager " + this.name + ", saya tinggal di " + this.address);
     }
 }

@@ -5,6 +5,6 @@ class VicePresident extends Manager{
     }
 
     void sayHello(String name){
-        System.out.println("Halo " + name + ", Saya adalah Vice President " + this.name);
+        System.out.println("Halo " + name + ", saya adalah Vice President " + this.name);
     }
 }
