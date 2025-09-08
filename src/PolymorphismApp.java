@@ -12,7 +12,7 @@ class PolymorphismApp {
         // polymorphism
         sayHello(new Employee("Walker"));
         sayHello(new Manager("Simanjuntak"));
-        sayHello(new VicePresident("Valen"));
+        sayHello(new VicePresident("Valentinus"));
     }
 
     static void sayHello(Employee employee){
