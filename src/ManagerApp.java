@@ -8,7 +8,7 @@ public class ManagerApp {
 
         vicePresident.sayHello("Anton");
 
-        System.out.println(manager);
-        System.out.println(vicePresident);
+        System.out.println(manager.name);
+        System.out.println(vicePresident.name);
     }
 }
